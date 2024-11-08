@@ -1,6 +1,6 @@
 # Interview Preparation Assistant
 
-I combined the confidence assessment quiz and AI interviewer chatbot into one Streamlit application. You can run and test it locally by cloning the repository, setting up a virtual environment, installing requirements, and configuring your API keys. All functionality is working as expected. I have not yet deployed to Streamlit Community Cloud as it requires redeployment after each change, so that will be the final step.
+This has a menu with some multi-page content as a test of the format. The colors and CSS are not right yet.
 
 ## Local Setup Instructions
 
