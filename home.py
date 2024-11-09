@@ -2,6 +2,6 @@
 import streamlit as st
 
 def app():
-    st.title("Home Page")
-    st.write("Welcome to the Home Page!")
+    st.title("Elevate You Career")
+    st.write("Use our live AI Interview Coach. Land the job. Take our confidence quiz and level up your game.")
 
