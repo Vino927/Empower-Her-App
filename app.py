@@ -107,11 +107,11 @@ if selected_page == "Home":
 
     with col1:
         st.markdown('<div class="quiz-section">', unsafe_allow_html=True)
-        st.header("Confidence Assessment")
+        st.header("Your Job Coach, here...")
         quiz = ConfidenceQuiz()
 
         if not st.session_state.quiz_started:
-            st.write("Take our confidence assessment to get personalized advice.")
+            st.write("Practice interviews. Create confidence. Land that job. Take our confidence quiz and use our coach to level up your game.")
             if st.button("Start Quiz"):
                 st.session_state.quiz_started = True
                 st.rerun()
