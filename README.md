@@ -33,6 +33,15 @@ source venv/bin/activate
 
 3. Install required packages
 
+First, install Streamlit and Google Generative AI dependencies directly
+
+```bash
+pip install streamlit
+pip install google-generativeai
+```
+
+Next install all the other requirements from the txt file
+
 ```bash
 pip install -r requirements.txt
 ```
