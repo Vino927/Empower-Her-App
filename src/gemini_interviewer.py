@@ -8,9 +8,6 @@ model = genai.GenerativeModel('gemini-pro')
 
 # Candidate details
 DEFAULT_CONTEXT = {
-    "age": 25,
-    "gender": "female",
-    "location": "Tunisia",
     "current_job_type": "graduate student",
     "new_job_type": "software engineer"
 }
@@ -27,21 +24,26 @@ def analyze_response_and_prompt_next_question(user_response, previous_prompt, co
     **Candidate:** "{user_response}"
 
     You are a career coach role playing as interviewer with the user to improve their performance during interviews. 
-    You are interviewing a {context['age']}-year-old {context['gender']} from {context['location']} 
+    The candidate is
     transitioning from {context['current_job_type']} to {context['new_job_type']}.
 
     As the interviewer:
-    1. Provide brief, constructive feedback on the candidate's response
-    2. Focus on confidence and communication skills
-    3. If needed, suggest a more confident way to phrase their response
+    1. Provide brief, positive feedback on the candidate's response
+    2. Focus on response on confidence and communication skills
+    3. Suggest a more confident response using conversational language, similar to real-life interviews, with coaching statements for leadership and communication. Use the {context['current_job_type']} to give a short example the user could provide in their answer related to {context['new_job_type']}. 
     4. Ask a natural follow-up question that explores their:
        - Professional experience
        - Problem-solving abilities
        - Teamwork and collaboration
-       - Technical skills relevant to {context['new_job_type']}
+       - Skills relevant to {context['new_job_type']}
+       - Leadership skills if the {context['new_job_type']} is a manager, director or otherwise leadership role. 
+       - other questions that get typically asked during an interview
+       - Do not use any previously used questions. 
     
     Keep your response concise and conversational. Format your response as:
-    [Your feedback]
+    Coaching feedback on your response:
+
+    Suggested example response:
     
     Next question: [Your follow-up question]
     """
@@ -58,9 +60,6 @@ def update_interview_context(age=None, gender=None, location=None,
                            current_job=None, desired_job=None):
     """Update the interview context with new candidate details."""
     context = DEFAULT_CONTEXT.copy()
-    if age: context['age'] = age
-    if gender: context['gender'] = gender
-    if location: context['location'] = location
     if current_job: context['current_job_type'] = current_job
     if desired_job: context['new_job_type'] = desired_job
     return context
