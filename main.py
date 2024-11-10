@@ -14,7 +14,7 @@ st.set_page_config(
 
 
 st.markdown(
-    """
+    
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src=f"https://www.googletagmanager.com/gtag/js?id={os.getenv('analytics_tag')}"></script>
         <script>
@@ -23,7 +23,7 @@ st.markdown(
             gtag('js', new Date());
             gtag('config', os.getenv('analytics_tag'));
         </script>
-    """, unsafe_allow_html=True)
+    , unsafe_allow_html=True)
 print(os.getenv('analytics_tag'))
 
 
