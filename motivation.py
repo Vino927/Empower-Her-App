@@ -1,6 +1,8 @@
 import streamlit as st
 import random
 
+
+def show():
 st.title("Motivation & Success Stories")
 
 # Inspirational quotes from women leaders
