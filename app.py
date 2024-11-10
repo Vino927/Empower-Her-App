@@ -92,6 +92,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# Set default page as "Home" on the first load
+if "selected_page" not in st.session_state:
+    st.session_state.selected_page = "Home"
+
 # Simple sidebar navigation
 with st.sidebar:
     selected_page = st.selectbox(
