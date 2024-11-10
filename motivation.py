@@ -134,3 +134,5 @@ st.markdown("""
 - "Women in Tech" by Tarah Wheeler
 """)
 
+# Call the show function to execute the code in this file if imported in multi-page setup
+show()
