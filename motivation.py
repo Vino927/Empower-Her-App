@@ -79,7 +79,7 @@ with st.expander("Nailing Interviews to Land the Right Job"):
     _Source: From Business Insider's Public Career Column_
     """)
 
-with st.expander("Developing Confidence as a Gamechanger"):
+with st.expander("Developing Confidence Can Be a Gamechanger"):
     st.markdown("""
     ### Gain Confidence Through Practice
     
