@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 
-def show():
 st.title("Motivation & Success Stories")
 
 # Inspirational quotes from women leaders
@@ -126,15 +125,5 @@ st.markdown("""
 - Women Who Code
 - Ladies Get Paid
 - Tech Ladies
-- Women in Technology International (WITI)
-
-### Recommended Reading
-- "Lean In" by Sheryl Sandberg
-- "Brotopia" by Emily Chang
-- "Reset" by Ellen Pao
 - "Women in Tech" by Tarah Wheeler
 """)
-
-# Only call show() if the file is run directly, not imported
-if __name__ == "__main__":
-    show()
