@@ -134,5 +134,6 @@ st.markdown("""
 - "Women in Tech" by Tarah Wheeler
 """)
 
-# Call the show function to execute the code in this file if imported in multi-page setup
-show()
+# Only call show() if the file is run directly, not imported
+if __name__ == "__main__":
+    show()
