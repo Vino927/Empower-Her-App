@@ -1,6 +1,25 @@
-# Interview Preparation Assistant
+# Empower Your Career - Google's Women Techmakers presents She Builds AI Hackthon Submission by Ashley Sally and Vino Gupta
+Use our AI Interview Coach, build your confidence, and reach new heights in your career.
 
-This has a menu with some multi-page content as a test of the format. The colors and CSS are not right yet.
+##AI Interview Coach
+Practice interviewing with real-time feedback and ace your next interview.
+
+##Confidence Quiz
+Assess your confidence level and get tips to improve.
+
+##Resources
+Access a library of resources to support your career growth.
+
+##Statistics
+Learn about the Gender Pay Gap Statistics & Insights based on your state.
+
+##Motivation
+Get daily inspirational quotes, read succes stories and motivational tips to keep pushing forward.
+
+##Progress Tracker
+Monitor your goals, milestones, and achievements as you grow.
+
+###Try the app here: https://duncan-prep.streamlit.app/
 
 ## Local Setup Instructions
 
