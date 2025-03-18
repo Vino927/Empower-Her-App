@@ -1,6 +1,7 @@
 # Empower Her - An AI Interview Coach and Confidence builder
-## Google's Women Techmakers presents She Builds AI Hackthon Submission 
-## by Ashley Sally and Vino Gupta
+### Google's Women Techmakers presents She Builds AI Hackthon Submission 
+### by Ashley Sally and Vino Gupta
+
 Use our AI Interview Coach, build your confidence, and reach new heights in your career.
 
 ## AI Interview Coach
