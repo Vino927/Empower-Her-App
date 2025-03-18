@@ -1,30 +1,20 @@
 # Empower Her - An AI Interview Coach and Confidence builder
-#### Google's Women Techmakers presents She Builds AI Hackthon Submission 
-#### by Ashley Sally and Vino Gupta
+Hackthon Submission: **Google's Women Techmakers presents She Builds AI** built by **Ashley Sally and Vino Gupta**
 
 Use our AI Interview Coach, build your confidence, and reach new heights in your career.
 
-#### Try the app here: https://duncan-prep.streamlit.app/
-#### Watch here: https://m.youtube.com/watch?v=txI3a06w8mc
+**Watch the video:** https://devpost.com/software/empower-her-qgesk9
 
-App Features:
-### AI Interview Coach
-Practice interviewing with real-time feedback and ace your next interview.
+**Try out the app:** https://duncan-prep.streamlit.app/
 
-### Confidence Quiz
-Assess your confidence level and get tips to improve.
 
-### Resources
-Access a library of resources to support your career growth.
-
-### Statistics
-Learn about the Gender Pay Gap Statistics & Insights based on your state.
-
-### Motivation
-Get daily inspirational quotes, read succes stories and motivational tips to keep pushing forward.
-
-### Progress Tracker
-Monitor your goals, milestones, and achievements as you grow.
+### App Features:
+- **AI Interview Coach:** Practice interviewing with real-time feedback and ace your next interview.
+- **Confidence Quiz:** Assess your confidence level and get tips to improve.
+- **Resources:** Access a library of resources to support your career growth.
+- **Statistics:** Learn about the Gender Pay Gap Statistics & Insights based on your state.
+- **Motivation:** Get daily inspirational quotes, read succes stories and motivational tips to keep pushing forward.
+- **Progress Tracker:** Monitor your goals, milestones, and achievements as you grow.
 
 
 ## Local Setup Instructions
